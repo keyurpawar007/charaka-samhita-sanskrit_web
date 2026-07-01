@@ -4,12 +4,7 @@ An interactive, premium web sanctuary dedicated to studying the **Charaka Samhit
 
 Live Site: [charaka-samhita.vercel.app](https://charaka-samhita.vercel.app)
 
-Website Design: 
-<img width="1888" height="904" alt="Screenshot 2026-07-02 010649" src="https://github.com/user-attachments/assets/ecc899f2-cfc5-4e85-81fa-317982f4a970" />
-<img width="1914" height="978" alt="Screenshot 2026-07-02 010848" src="https://github.com/user-attachments/assets/66c6c641-9466-4ce0-bcc8-37821f7f10c3" />
-<img width="1896" height="955" alt="Screenshot 2026-07-02 010926" src="https://github.com/user-attachments/assets/a67319c1-87e3-4d56-b31a-cd790f798438" />
-
-<img width="1896" height="905" alt="Screenshot 2026-07-02 011013" src="https://github.com/user-attachments/assets/a96771c8-349c-4797-a11b-f96af813ffc6" />
+---
 
 ## 🌟 Features
 
@@ -70,5 +65,4 @@ This project is optimized for deployment on Vercel.
 To deploy changes to the live site:
 ```bash
 npx vercel --prod
-
 ```

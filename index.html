@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="sa" class="light-mode">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>चरक संहिता — Charaka Samhita | Ayurveda Sutra Sthana</title>
+  <meta name="description" content="Explore the ancient wisdom of Charaka Samhita — the foundational Ayurvedic text. Study Sutra Sthana with Sanskrit shlokas, sandhi analysis, English translations, and audio recitations.">
+  <meta name="theme-color" content="#E25822">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23d6501c' rx='15'/%3E%3Ctext x='50' y='68' font-size='55' text-anchor='middle' fill='%23cfa83c' font-weight='bold' font-family='serif'%3Eॐ%3C/text%3E%3C/svg%3E">
+  
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="assets/icon-192.png">
+
+  <!-- Font Libraries -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&family=Noto+Serif+Devanagari:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Styling -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Floating Golden Particles Background Canvas -->
+  <canvas id="particle-canvas"></canvas>
+
+  <!-- Sound Ambient Player / Instrumental Sitar -->
+  <div class="ambient-music-box" id="ambient-player-container">
+    <button id="toggle-ambient" class="btn-ambient" title="Toggle Temple Ambient Sounds">
+      <i class="fa-solid fa-volume-xmark"></i>
+      <span class="ambient-text">Temple Soundscape</span>
+    </button>
+  </div>
+
+  <!-- Traditional Decorative Top Border -->
+  <div class="temple-top-border"></div>
+
+  <!-- Header & Navigation -->
+  <header class="app-header">
+    <div class="header-inner container">
+      <a href="#home" class="logo-area">
+        <span class="om-symbol">ॐ</span>
+        <div class="logo-text">
+          <h1 class="logo-title">चरक संहिता</h1>
+          <span class="logo-subtitle">AYURVEDA SUTRA STHANA</span>
+        </div>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav class="main-nav" id="main-navigation">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active" id="nav-home"><i class="fa-solid fa-om"></i> Home</a></li>
+          <li><a href="#scriptures" class="nav-link" id="nav-scriptures"><i class="fa-solid fa-book-open"></i> Scriptures</a></li>
+          <li><a href="#audio" class="nav-link" id="nav-audio"><i class="fa-solid fa-music"></i> Audio Chants</a></li>
+          <li><a href="#search" class="nav-link" id="nav-search"><i class="fa-solid fa-magnifying-glass"></i> Search</a></li>
+          <li><a href="#bookmarks" class="nav-link" id="nav-bookmarks"><i class="fa-solid fa-bookmark"></i> Bookmarks</a></li>
+          <li><a href="#sandhi-diff" class="nav-link" id="nav-sandhi-diff"><i class="fa-solid fa-code-compare"></i> Sandhi Diff</a></li>
+          <li><a href="#about" class="nav-link" id="nav-about"><i class="fa-solid fa-circle-info"></i> About</a></li>
+          <li><a href="#audio-mapper" class="nav-link" id="nav-audio-mapper" style="color: var(--accent-gold); font-weight: bold;"><i class="fa-solid fa-sliders"></i> Audio Mapper</a></li>
+        </ul>
+      </nav>
+
+      <!-- Theme Controls -->
+      <div class="header-actions">
+        <button id="theme-toggle" class="btn-theme-toggle" title="Toggle Temple Lighting (Dark Mode)">
+          <i class="fa-solid fa-lightbulb"></i>
+          <span>Temple Light</span>
+        </button>
+        <button class="mobile-nav-toggle" id="menu-btn" aria-label="Toggle navigation menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Wrapper -->
+  <main class="main-content" id="app-viewport">
+    
+    <!-- Dynamic sections will be injected here via app.js -->
+    
+    <!-- FALLBACK LOADER -->
+    <div class="loader-container" id="global-loader">
+      <div class="loader-bell-wrapper">
+        <i class="fa-solid fa-bell bell-loader-icon"></i>
+      </div>
+      <p class="loader-text">Loading Sacred Library...</p>
+    </div>
+
+  </main>
+
+  <!-- Traditional Decorative Bottom Border -->
+  <div class="temple-bottom-border-deco"></div>
+
+  <!-- Footer -->
+  <footer class="app-footer">
+    <div class="footer-inner container">
+      <div class="footer-grid">
+        
+        <div class="footer-col brand-col">
+          <span class="footer-om">ॐ</span>
+          <h3>चरक संहिता — Charaka Samhita</h3>
+          <p>A digital sanctuary dedicated to preserving the timeless wisdom of Ayurveda. Explore the Sutra Sthana with authentic shlokas, sandhi analysis, translations, and audio recitations.</p>
+        </div>
+
+        <div class="footer-col links-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#scriptures">All Scriptures</a></li>
+            <li><a href="#audio">Audio Recitations</a></li>
+            <li><a href="#search">Search Verses</a></li>
+            <li><a href="#bookmarks">Your Saved Shlokas</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col contact-col">
+          <h4>आयुर्वेद (Ayurveda)</h4>
+          <p>Explore Charaka Samhita shlokas with precise Sandhi analysis, Devanagari script, English transliteration, and audio recitations.</p>
+          <div class="diya-decor">
+            <div class="diya-wick"></div>
+            <div class="diya-flame-flicker"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 चरक संहिता — Charaka Samhita Digital Library. All content preserved with reverence.</p>
+        <div class="footer-decorative-line"></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification System -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- Core Database and Application Scripts -->
+  <script src="database.js"></script>
+  <script src="assets/raw_audio_list.js"></script>
+  <script src="app.js"></script>
+  <script>
+    // Register PWA service worker
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js')
+          .then(reg => console.log('Service Worker registered successfully', reg.scope))
+          .catch(err => console.log('Service Worker registration failed', err));
+      });
+    }
+  </script>
+</body>
+</html>

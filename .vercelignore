@@ -1,0 +1,5 @@
+# Ignore Node server — this is a static site only
+server.js
+node_modules
+*.py
+alignment_report.html
