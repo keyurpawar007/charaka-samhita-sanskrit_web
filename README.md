@@ -4,7 +4,9 @@ An interactive, premium web sanctuary dedicated to studying the **Charaka Samhit
 
 Live Site: [charaka-samhita.vercel.app](https://charaka-samhita.vercel.app)
 
----
+Website Design: 
+
+<img width="1896" height="905" alt="Screenshot 2026-07-02 011013" src="https://github.com/user-attachments/assets/a96771c8-349c-4797-a11b-f96af813ffc6" />
 
 ## 🌟 Features
 
