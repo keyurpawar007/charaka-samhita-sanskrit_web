@@ -4,19 +4,11 @@ An interactive, premium web sanctuary dedicated to studying the **Charaka Samhit
 
 **Live Site:** [charaka-samhita.vercel.app](https://charaka-samhita.vercel.app)
 
-### 📸 Preview
+<img src="charak1.png" width="800">
 
-<p align="center">
-  <img src="charak1.png" width="800">
-</p>
+<img src="charak2.png" width="800">
 
-<p align="center">
-  <img src="charak2.png" width="800">
-</p>
-
-<p align="center">
-  <img src="charak3.png" width="800">
-</p>
+<img src="charak3.png" width="800">
 
 ## 🌟 Features
 
@@ -54,6 +46,7 @@ To run the static server locally:
    ```
 
 2. **Access the library**:
+
    Open http://localhost:8080.
 
 ---
@@ -65,21 +58,15 @@ To run the static server locally:
 To parse new Sanskrit Sandhis from a PDF (e.g., `sans Research (1).pdf`) and merge them into both `database.js` and `sandhi_db.json`:
 
 1. Ensure the PDF is placed in the parent directory of this project folder.
+
 2. Run the merge script:
 
    ```bash
    python merge_sandhis.py
    ```
+
 3. The script will automatically parse, clean characters, fix visarga colons, validate shloka mappings, and save changes to disk.
 
 ---
 
-## 🌐 Deployment
-
-This project is optimized for deployment on Vercel.
-
-To deploy changes to the live site:
-
-```bash
-npx vercel --prod
-```
+## 🌐 Depl
