@@ -1,10 +1,10 @@
-# Charaka Samhita Sutra Sthana — Digital Sanskrit Library
+<img width="1919" height="918" alt="Screenshot 2026-09-20 203838" src="https://github.com/user-attachments/assets/8a63e5e2-4e21-4ed7-9366-2e1ddd976e30" /># Charaka Samhita Sutra Sthana — Digital Sanskrit Library
 
 An interactive, premium web sanctuary dedicated to studying the **Charaka Samhita (Sutra Sthana)**—the foundational scripture of Ayurveda. Explore authentic Devanagari shlokas, granular grammatical Sandhi splits, English transliteration, semantic translations, and audio chants.
 
 Live Site: [charaka-samhita.vercel.app](https://charaka-samhita.vercel.app)
 
----
+Interface :- <img src="charak1.png" width="800"/>
 
 ## 🌟 Features
 
