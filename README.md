@@ -7,15 +7,15 @@ An interactive, premium web sanctuary dedicated to studying the **Charaka Samhit
 ### 📸 Preview
 
 <p align="center">
-  <img src="charak1.png" width="800" alt="Charaka Samhita Digital Library - Home">
+  <img src="charak1.png" width="800">
 </p>
 
 <p align="center">
-  <img src="charak2.png" width="800" alt="Charaka Samhita Digital Library - Sanskrit Verse">
+  <img src="charak2.png" width="800">
 </p>
 
 <p align="center">
-  <img src="charak3.png" width="800" alt="Charaka Samhita Digital Library - Sandhi Analysis">
+  <img src="charak3.png" width="800">
 </p>
 
 ## 🌟 Features
