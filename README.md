@@ -1,10 +1,22 @@
-<img width="1919" height="918" alt="Screenshot 2026-09-20 203838" src="https://github.com/user-attachments/assets/8a63e5e2-4e21-4ed7-9366-2e1ddd976e30" /># Charaka Samhita Sutra Sthana — Digital Sanskrit Library
+# Charaka Samhita Sutra Sthana — Digital Sanskrit Library
 
 An interactive, premium web sanctuary dedicated to studying the **Charaka Samhita (Sutra Sthana)**—the foundational scripture of Ayurveda. Explore authentic Devanagari shlokas, granular grammatical Sandhi splits, English transliteration, semantic translations, and audio chants.
 
-Live Site: [charaka-samhita.vercel.app](https://charaka-samhita.vercel.app)
+**Live Site:** [charaka-samhita.vercel.app](https://charaka-samhita.vercel.app)
 
-Interface :- <img src="charak1.png" width="800"/>
+### 📸 Preview
+
+<p align="center">
+  <img src="charak1.png" width="800" alt="Charaka Samhita Digital Library - Home">
+</p>
+
+<p align="center">
+  <img src="charak2.png" width="800" alt="Charaka Samhita Digital Library - Sanskrit Verse">
+</p>
+
+<p align="center">
+  <img src="charak3.png" width="800" alt="Charaka Samhita Digital Library - Sandhi Analysis">
+</p>
 
 ## 🌟 Features
 
@@ -36,21 +48,25 @@ Interface :- <img src="charak1.png" width="800"/>
 To run the static server locally:
 
 1. **Start the Node.js server**:
+
    ```bash
    node server.js
    ```
+
 2. **Access the library**:
-   Open [http://localhost:8080](http://localhost:8080) in your web browser.
+   Open http://localhost:8080.
 
 ---
 
 ## 🛠️ Data Administration
 
 ### Merging Sandhi Splits from PDF
+
 To parse new Sanskrit Sandhis from a PDF (e.g., `sans Research (1).pdf`) and merge them into both `database.js` and `sandhi_db.json`:
 
 1. Ensure the PDF is placed in the parent directory of this project folder.
 2. Run the merge script:
+
    ```bash
    python merge_sandhis.py
    ```
@@ -60,9 +76,10 @@ To parse new Sanskrit Sandhis from a PDF (e.g., `sans Research (1).pdf`) and mer
 
 ## 🌐 Deployment
 
-This project is optimized for deployment on Vercel. 
+This project is optimized for deployment on Vercel.
 
 To deploy changes to the live site:
+
 ```bash
 npx vercel --prod
 ```
